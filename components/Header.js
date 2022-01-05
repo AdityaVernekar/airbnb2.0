@@ -17,6 +17,7 @@ const Header = () => {
           layout="fill"
           objectFit="contain"
           objectPosition="left"
+          alt="logoimg"
         />
       </div>
       {/* middle */}

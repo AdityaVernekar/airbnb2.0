@@ -4,7 +4,7 @@ function LargeCard({ img, title, desc, buttonText }) {
   return (
     <section className="my-10">
       <div className="relative h-[300px] w-full ">
-        <Image src={img} layout="fill" objectFit="cover" className="rounded-2xl" />
+        <Image src={img} layout="fill" objectFit="cover" className="rounded-2xl" alt="Largecard" />
         <div className="absolute top-10 left-6">
           <h2 className="text-3xl font-semibold">{title}</h2>
           <p className="text-gray-700 text-md p-1">{desc}</p>
