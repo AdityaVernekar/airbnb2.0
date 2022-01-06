@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply text-sm rounded-full
+            px-6 hover:scale-90 transition duration-150 cursor-pointer py-2
+            hover:shadow-lg shadow-gray-400/70 hover:font-semibold active:bg-gray-400 active:text-white hover:bg-gray-200;
+  }
+}
